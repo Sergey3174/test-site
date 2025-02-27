@@ -6,4 +6,47 @@
     padding: 15px 25px 25px 25px;
     border-radius: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-iiko-text{
+    
+    color: #FFFFFF;
+    opacity: 75%;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.main-iiko-card{
+    padding: 25px;
+    min-width: 100%;
+    height: 285px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FF4444;
+}
+
+.main-iiko-card-text{
+    margin: 0;
+    opacity: 50%;
+    font-weight: 300;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.main-iiko-card-num{
+    margin: 0;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 700;
+    
 }
