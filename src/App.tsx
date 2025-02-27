@@ -1,13 +1,14 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/Header/Header";
 import StartPage from './components/StartPage/StartPage'
 
-function App() {
 
+function App() {
   return (
     <>
+      <Header />
      <StartPage/>
     </>
-  )
+  );
 }
-
-export default App
+export default App;
