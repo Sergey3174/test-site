@@ -15,3 +15,20 @@
     font-size: 16px;
     font-weight: 400;    
 }
+
+.icon {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .icon rect {
+    transition: fill 0.3s ease-in-out; /* Плавное изменение цвета */
+    fill: white; /* Изначальный цвет */
+  }
+
+  .icon:hover rect {
+    fill: #766CFF; /* Цвет изменяется на красный при наведении */
+  }
+
+  .icon:hover {
+    transform: rotate(45deg); /* Поворот при наведении */
+  }
