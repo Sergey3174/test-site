@@ -1,5 +1,5 @@
 import "./Header.css";
-import LOGO from "../../img/kasha-soft.svg";
+import LOGO from "../../assets/img/kasha-soft.svg";
 import MenuButton from "./components/menu-button";
 
 function Header() {
