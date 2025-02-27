@@ -1,0 +1,17 @@
+.header-menu {
+    font-family: 'HelveticaNeue';
+    font-weight: 500;
+    font-style: normal;
+    width: 175px;
+    height: 55px;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;    
+}

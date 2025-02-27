@@ -1,0 +1,26 @@
+.header-container{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container-right{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-phone-container{
+    display: flex;
+    align-items: center;
+
+}
+.header-phone{
+    font-family: 'HelveticaNeue';
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(0,0,0, 0.5);
+}
+
