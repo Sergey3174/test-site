@@ -43,7 +43,7 @@ type Slide = {
         {/* Заголовок */}
         <div className="p-4 bg-white rounded-2xl text-container">
           <p className='video-text'>Проекты</p>        
-          <h2 className="text-2xl font-bold video-text">{slides[currentIndex].title}</h2>
+          <h2 className="text-2xl font-bold video-title">{slides[currentIndex].title}</h2>
         </div>
   
         <div className="slider-container">

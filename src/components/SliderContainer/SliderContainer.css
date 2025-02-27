@@ -23,10 +23,22 @@
 
 .video-text {
     margin: 0;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.video-title {
+    margin: 0;
+    font-size: 36px;
+    line-height: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0);
 }
 
 .video-container {
-    height: 257px;
+    height: 285px;
 }
 
 .slider-wrapper {
@@ -42,7 +54,7 @@
 
 .slider-container {
     width: 450px;
-    height: 257px;
+    height: 285px;
     overflow: hidden; 
     border-radius: 20px;
     position: relative;
@@ -55,18 +67,18 @@
 
 .slider-video {
     width: 450px;
-    height: 257px;
+    height: 285px;
     object-fit: cover;
     border-radius: 20px;
 }
 
 .block-btn {
     display: flex;
-    width: 100px;
+    width: 90px;
     justify-content: space-between;
     position: relative;
-    top: -60px;
-    right: -73%;
+    top: -58px;
+    right: -76%;
 }
 
 .lastSlide, .nextSlide {
@@ -99,4 +111,8 @@
 
 .text-container {
     align-self: baseline;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

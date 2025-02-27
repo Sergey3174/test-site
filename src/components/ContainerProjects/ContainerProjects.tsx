@@ -6,7 +6,7 @@ function ContainerProjects() {
   return (
     <div className='container-projects'>
         <div className='container-projects-title'>
-            <h4 className='container-projects-title-text'>Создаём и поддерживаем диджитал-решения, которые работают</h4>
+            <p className='container-projects-title-text'>Создаём и поддерживаем диджитал-решения, которые работают</p>
         </div>
         <SliderContainer />
     </div>
