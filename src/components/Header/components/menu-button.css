@@ -21,14 +21,15 @@
   }
 
   .icon rect {
-    transition: fill 0.3s ease-in-out; /* Плавное изменение цвета */
-    fill: white; /* Изначальный цвет */
+    transition: fill 0.3s ease-in-out;
+    fill: white; 
   }
 
-  .icon:hover rect {
-    fill: #766CFF; /* Цвет изменяется на красный при наведении */
+
+  .header-menu:hover .icon rect {
+    fill: #766CFF;
   }
 
-  .icon:hover {
-    transform: rotate(45deg); /* Поворот при наведении */
+  .header-menu:hover .icon {
+    transform: rotate(45deg); 
   }

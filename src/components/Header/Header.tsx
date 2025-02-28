@@ -4,7 +4,7 @@ import MenuButton from "./components/menu-button";
 
 function Header() {
   return (
-    <div className="header-container">
+    <header className="header-container">
       <div className="logo">
         <img src={LOGO} />
       </div>
@@ -16,7 +16,7 @@ function Header() {
         </div>
         <MenuButton />
       </div>
-    </div>
+    </header>
   );
 }
 
