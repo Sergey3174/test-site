@@ -1,3 +1,39 @@
 .animation-page-container {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    justify-content: center;
+    max-width: 1860px;
+    width: 100%;
+    margin: 0 auto;
 }
+
+.animate-circle {
+    position: fixed;
+    text-align: center;
+     font-weight: 500;
+  font-size: 250px;
+  line-height: 101.51px;
+    animation: slideUp 1s forwards;
+    box-sizing: content-box;
+  }
+
+  .animate-circle sup {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 10px;
+    vertical-align:top
+  }
+  
+  @keyframes slideUp {
+    0% {
+      
+      transform: translateY(100vh); /* Начинаем с позиции ниже экрана */
+    }
+    100% {
+        
+      transform: translateY(0); /* Конечная позиция на экране */
+    }
+  }
+  

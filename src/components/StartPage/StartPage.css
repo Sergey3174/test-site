@@ -1,4 +1,5 @@
 .start-page-container {
+    position: relative;
     width: 100%;
     height: 1080px;
     padding: 30px;
@@ -8,3 +9,40 @@
     justify-content: space-between;
     box-sizing: border-box;
 }
+
+
+.circle-wrapper {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+  
+    display: flex;  /* Используем flexbox */
+    justify-content: center;  /* Центрируем по горизонтали */
+    align-items: flex-end;  /* Прижимаем к низу */
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 1200px;
+    height: 1200px;
+    bottom: -600px;
+    pointer-events: none;
+    background-color: #f1f1f1;
+    animation: expandCircle 1s ease-out forwards;
+  
+  }
+  
+  @keyframes expandCircle {
+    from {
+      transform:  scale(0);
+    }
+    to {
+      transform: scale(5); /* Конечный размер круга */
+    }
+  }
+  

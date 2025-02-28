@@ -1,12 +1,24 @@
 import "./Animation.css";
 
 function Animation() {
-    
-    return (
+  return (
+    <>
       <div className="animation-page-container">
-        <h1>Анимация</h1>
+        <div className="animate-circle">
+          <span>
+            Проекты<sup>9</sup>
+          </span>
+        </div>
       </div>
-    );
-  }
-  
-  export default Animation;
+      <div>dsdsd</div>
+      <div>dsdsd</div>
+      <div>dsdsd</div>
+      <div>dsdsd</div>
+      <div>dsdsd</div>
+      <div>dsdsd</div>
+      <div>dsdsd</div>
+    </>
+  );
+}
+
+export default Animation;
