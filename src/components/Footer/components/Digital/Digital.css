@@ -1,0 +1,13 @@
+.digital-container{
+    width: 978px;
+    box-sizing: border-box;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.digital-text {
+    width: 171px;
+    margin: 0;
+}

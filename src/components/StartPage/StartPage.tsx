@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
-import Animation from "../Animation/Animation";
 import "./StartPage.css";
+import ProjectPage from "../../pages/ProjectPage/ProjectPage";
 
 function StartPage() {
   const [isActive, setIsActive] = useState<boolean>(true);
@@ -34,10 +34,12 @@ function StartPage() {
   }, [backgroundColor]);
 
   return (
-    <div className="start-page-container" style={{ backgroundColor }}>
-      <Header />
-      {isActive ? <Main onClick={handleChildClick} /> : <Animation />}
-      {/* Показываем круг только если анимация завершена и фоновый цвет изменён */}
+    <>
+      <div className="start-page-container" style={{ backgroundColor }}>
+        <Header />
+        {isActive ? <Main onClick={handleChildClick} /> : <ProjectPage />}
+        {/* Показываем круг только если анимация завершена и фоновый цвет изменён */}
+      </div>
       {!isActive && !circleAnimationEnded && (
         <div className="circle-wrapper">
           <div
@@ -46,7 +48,7 @@ function StartPage() {
           ></div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 

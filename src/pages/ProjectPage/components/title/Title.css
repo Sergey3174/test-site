@@ -1,0 +1,37 @@
+.title-container-wrapper {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 85px);
+    justify-content: center;
+    max-width: 1860px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title-container {
+    position: fixed;
+    text-align: center;
+    font-weight: 500;
+    font-size: 250px;
+    line-height: 101.51px;
+    animation: slideUp 2s forwards;
+  }
+
+  .title-container sup {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 10px;
+    vertical-align:top
+  }
+  
+  @keyframes slideUp {
+    0% {
+      
+      transform: translateY(100vh); /* Начинаем с позиции ниже экрана */
+    }
+    100% {
+        
+      transform: translateY(-50%); /* Конечная позиция на экране */
+    }
+  }
+  

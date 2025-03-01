@@ -1,0 +1,31 @@
+.footer-wrapper {
+          position: absolute;
+          height: 900px;
+          width: 100%;
+          background: #303030;
+          left: 0;
+         }
+
+.footer-container{
+    color: white;
+    padding: 0 72px 0 60px ;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1900px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer-panel{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.logo-container{
+    width: 100%;
+  
+}
